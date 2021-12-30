@@ -48,3 +48,28 @@
                                 </ul>
                         </ul>
                 </ul>
+                <li><a>CNN</a>
+        <ul>
+            <li><a href="#uni">Univariate Forecasting</a>
+            <li><a href="#multi">Multivariate Forecasting</a>
+                <ul>
+                    <li><a href="#multiple_in">Multiple Input</a>
+                        <ul>
+                        <li><a href="#single cnn">Single CNN</a>
+                        <li><a href="#multi_headed">Multi-headed</a>
+                        </ul>
+                    <li><a href="#multiple_parallel">Multiple Parallel</a>
+                        <ul>
+                        <li><a href="#vector_output">Vector-Output</a>
+                        <li><a href="#multi_output">Multi-Output</a>
+                        </ul>
+                </ul>
+            <li><a href="#multi_step">Multi-Step Forcasting</a>
+                <ul>
+                    <li><a href="#uni_mult_step">Univariate Multi-Step></a>
+                    <li><a href="#multi_mult_step">Multivariate Multi-Step</a>
+                        <ul>
+                            <li><a href="#mult_step_multi_in">Multiple Input</a>
+                            <li><a href="#mult_step_multiple_parallel">Multiple Parallel</a>
+                        </ul>
+        </ul>
