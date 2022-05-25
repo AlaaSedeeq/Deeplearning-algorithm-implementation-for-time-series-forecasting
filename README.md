@@ -2,12 +2,14 @@
 
 ------------------------------------------
 ------------------------------------------
-------------------------------------------
 <h2 align="center" style='color:#0077EE'>Time Series Forecasting using Auto ARIMA & Deep Learning Algorithms</h2><br> 
 
 ------------------------------------------
 ------------------------------------------
-------------------------------------------
+
+In this repository, I'm going to explain how to do time series forecasting and analysis in Python. Also, I'll implement some deep learning techniques used for forecasting using the Keras framework.
+
+
 <h1><span>&#8226;</span> Outline:</h1>
 <ul>
     <li><a href="#gather_data">Gathering the data</a>
