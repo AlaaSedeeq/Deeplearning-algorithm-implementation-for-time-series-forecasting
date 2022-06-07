@@ -58,7 +58,7 @@ class DL_Forecaste:
 
     # split a univariate sequence into samples
     @tf.autograph.experimental.do_not_convert
-    def split_sequence(self, data, train_test=False):
+    def split_sequence(self, data, train_test=False, train_test_rato=0.7):
         """
         Docstring:
         This function transforms the raw dataset(TS) into inputs(Features) and output.
@@ -116,7 +116,7 @@ class DL_Forecaste:
         
         # Split data using train proportion of (70% - 30%)
         if train_test:
-            self.split_point = int(0.7 * len(self.X)) 
+            self.split_point = int(train_test_rato * len(self.X)) 
             self.X_train, self.X_test = self.X[:self.split_point], self.X[self.split_point:]
             self.y_train, self.y_test = self.y[:self.split_point], self.y[self.split_point:]            
             return self.X_train, self.X_test, self.y_train, self.y_test
