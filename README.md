@@ -7,71 +7,73 @@
 ------------------------------------------
 ------------------------------------------
 
-In this repository, I'm going to explain how to do time series forecasting and analysis in Python. Also, I'll implement some deep learning techniques used for forecasting using the Keras framework.
+In this repository, I'll:
+    - Implement some deep learning algorithms for forecasting, such as MLP, CNN, and LSTM-based approaches. (All Univariate Models and DL Forecast files)
+    - Provide an example of forcasting using both MLP and CNN algorithms using data from <a href="https://pypi.org/project/yfinance/">yfinance</a>. (CNN and MLP notebooks)
 
 
-<h1><span>&#8226;</span> Outline:</h1>
+<h1><span>&#8226;</span>Outline:</h1>
 <ul>
-    <li><a href="#gather_data">Gathering the data</a>
-    <li><a href="#EDA">Look at the data</a>  
-    <li><a href="#stationarity">Data stationarity analysis</a>
+    <li>Gathering the data
+    <li>Look at the data
+    <li>Data stationarity analysis
         <ul>
-            <li><a href="#test">Test for Stationarity</a>
-            <li><a href="#data_trans">Apply some data transformation for Stationarity</a>   
+            <li>Test for Stationarity
+            <li>Apply some data transformation for Stationarity
         </ul>
-    <li><a href="#decomposition ">TS Decomposition</a>
-    <li><a href="#corr">See the Correlation between Our Time Series.</a>
-    <li><a href="#acf_pacf">Plot the ACF & PACF For the data.</a>
-    <li><a href="#forecasting">Forecasting</a>
+    <li>TS Decomposition
+    <li>See the Correlation between Our Time Series.
+    <li>Plot the ACF & PACF For the data.
+    <li>Forecasting
         <ul>
-            <li><a href="#auto_arima">Auto ARIMA model</a>
-            <li><a href="#DL">Deep Learning Algorithms</a>
+            <li>Auto ARIMA model
+            <li>Deep Learning Algorithms
                 <ul>
-                    <li><a href="#mlp">MLP approaches</a>
+                    <li><a href="#mlp">MLP approaches
                         <ul>
-                            <li><a href="#uni">Univariate Forecasting</a>
-                            <li><a href="#multi">Multivariate Forecasting</a>
+                            <li>Univariate Forecasting
+                            <li>Multivariate Forecasting
                                 <ul>
-                                    <li><a href="#multi_in">Multiple Input</a>
+                                    <li>Multiple Input
                                         <ul>
-                                        <li><a href="#single_dense">Single Dense</a>
-                                        <li><a href="#multi_headed">Multi-headed</a>
+                                        <li>Single Dense
+                                        <li>Multi-headed
                                         </ul>
-                                    <li><a href="#multiple_parallel">Multiple Parallel</a>
+                                    <li>Multiple Parallel
                                         <ul>
-                                        <li><a href="#vector_output">Vector-Output</a>
-                                        <li><a href="#multi_output">Multi-Output</a>
+                                        <li>Vector-Output
+                                        <li>Multi-Output
                                         </ul>
                                 </ul>
-                            <li><a href="#multi_step">Multi-Step Forcasting</a>
+                            <li>Multi-Step Forcasting
                                 <ul>
-                                    <li><a href="#multiple_in_multi_step">Multiple Input</a>
-                                    <li><a href="#multiple_parallel_multi_step">Multiple Parallel</a>
+                                    <li>Multiple Input
+                                    <li>Multiple Parallel
                                 </ul>
                         </ul>
                 </ul>
                 <li><a>CNN</a>
         <ul>
-            <li><a href="#uni">Univariate Forecasting</a>
-            <li><a href="#multi">Multivariate Forecasting</a>
+            <li>Univariate Forecasting
+            <li>Multivariate Forecasting
                 <ul>
-                    <li><a href="#multiple_in">Multiple Input</a>
+                    <li>Multiple Input
                         <ul>
-                        <li><a href="#single cnn">Single CNN</a>
-                        <li><a href="#multi_headed">Multi-headed</a>
+                        <li><aSingle CNN
+                        <li>Multi-headed
                         </ul>
-                    <li><a href="#multiple_parallel">Multiple Parallel</a>
+                    <li>Multiple Parallel
                         <ul>
-                        <li><a href="#vector_output">Vector-Output</a>
-                        <li><a href="#multi_output">Multi-Output</a>
+                        <li>Vector-Output
+                        <li>Multi-Output
                         </ul>
                 </ul>
-            <li><a href="#multi_step">Multi-Step Forcasting</a>
+            <li>Multi-Step Forcasting
                 <ul>
-                    <li><a href="#uni_mult_step">Univariate Multi-Step></a>
-                    <li><a href="#multi_mult_step">Multivariate Multi-Step</a>
+                    <li>Univariate Multi-Step
+                    <li>Multivariate Multi-Step
                         <ul>
-                            <li><a href="#mult_step_multi_in">Multiple Input</a>
-                            <li><a href="#mult_step_multiple_parallel">Multiple Parallel</a>
+                            <li>Multiple Input
+                            <li>Multiple Parallel
                         </ul>
         </ul>
