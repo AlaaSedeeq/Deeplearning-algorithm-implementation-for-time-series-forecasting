@@ -7,9 +7,9 @@
 ------------------------------------------
 ------------------------------------------
 
-In this repository, I'll:
-    - Implement some deep learning algorithms for forecasting, such as MLP, CNN, and LSTM-based approaches. (All Univariate Models and DL Forecast files)
-    - Provide an example of forcasting using both MLP and CNN algorithms using data from <a href="https://pypi.org/project/yfinance/">yfinance</a>. (CNN and MLP notebooks)
+In this repository, I'll :
+- Implement some deep learning algorithms for forecasting, such as MLP, CNN, and LSTM-based approaches. (All Univariate Models and DL Forecast files)
+- Provide an example of forcasting using both MLP and CNN algorithms using data from <a href="https://pypi.org/project/yfinance/">yfinance</a>. (CNN and MLP notebooks)
 
 
 <h1><span>&#8226;</span>Outline:</h1>
@@ -29,7 +29,7 @@ In this repository, I'll:
             <li>Auto ARIMA model
             <li>Deep Learning Algorithms
                 <ul>
-                    <li><a href="#mlp">MLP approaches
+                    <li>MLP approaches
                         <ul>
                             <li>Univariate Forecasting
                             <li>Multivariate Forecasting
